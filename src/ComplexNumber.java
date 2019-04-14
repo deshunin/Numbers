@@ -35,7 +35,18 @@ public class ComplexNumber {
 		z.b = x.b + y.b;
 		return z;
 	}
-	
+	/**
+	 * The method returns the sum of two complex numbers x and y 
+	 * @param x
+	 * @param y
+	 * @return
+	 */
+	public ComplexNumber diff(ComplexNumber x, ComplexNumber y) {
+		ComplexNumber z = new ComplexNumber(0,0);
+		z.a = x.a - y.a;
+		z.b = x.b - y.b;
+		return z;
+	}
 	
 	
 

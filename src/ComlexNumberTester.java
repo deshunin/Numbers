@@ -10,6 +10,9 @@ public class ComlexNumberTester {
 		System.out.println("Let c1 = " + c1.getA() + " + " + c1.getB()+ "i" + " and c2 = " + c2.getA() + " + " + c2.getB() + "i");
 		System.out.println("The sum of two comlex numbers c1 + c2 = " + z.getA() + " + " + z.getB() + "i");
 		
+		z = z.diff(c1, c2);
+		System.out.println("The difference of two comlex numbers c1 - c2 = " + z.getA() + " + " + z.getB() + "i");
+		
 	}
 
 }
