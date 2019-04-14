@@ -47,7 +47,17 @@ public class ComplexNumber {
 		z.b = x.b - y.b;
 		return z;
 	}
+	/**
+	 * The method returns the mul of two complex numbers x and y 
+	 * @param x
+	 * @param y
+	 * @return
+	 */
+	public ComplexNumber mul(ComplexNumber x, ComplexNumber y) {
+		ComplexNumber z = new ComplexNumber(0,0);
+		z.a = (x.a * y.a) - (x.b * y.b);
+		z.b = (x.y * y.a) + (x.a * y.b);
+		return z;
+	}
 	
-	
-
 }
