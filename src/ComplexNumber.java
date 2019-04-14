@@ -79,7 +79,7 @@ public class ComplexNumber {
 		return z;
 	}
 	/**
-	 * The method returns the mul of two complex numbers x and y 
+	 * The method returns the multiplication of two complex numbers x and y 
 	 * @param x
 	 * @param y
 	 * @return

@@ -15,8 +15,10 @@ public class ComlexNumberTester {
 		System.out.println("The difference of two complex numbers c1 - c2 = " + z.getA() + " + " + z.getB() + "i");
 		
 		z = z.div(c1, c2);
-		System.out.println("The result of division complexs numbers c1/c2 = " + z.getA() + " + " + z.getB() + "i");
+		System.out.println("The result of division of complexs numbers c1/c2 = " + z.getA() + " + " + z.getB() + "i");
 		
+		z = z.mult(c1, c2);
+		System.out.println("The result of multiplication of two complexs numbers c1/c2 = " + z.getA() + " + " + z.getB() + "i");
 		
 	}
 
